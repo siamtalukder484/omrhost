@@ -176,7 +176,82 @@ ul,ol{
 /*======================================
         Banner Part Start Here
 ========================================*/
-
+#banner{
+    background-color: #f2f2f2;
+    padding: 135px 0 135px 0;
+}
+.banner_content{
+    padding-right: 40px;
+}
+.banner_content h1{
+    font-size: 46px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #151414;
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+    padding-top: 35px;
+}
+.banner_content p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #646464;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+.banner_content a{
+    padding: 14px 26px;
+    background-color: #119ee6;
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 17px;
+}
+.banner_content a i{
+    padding-left: 8px;
+    vertical-align: middle;
+}
 /*======================================
         Banner Part End Here
+========================================*/
+
+
+/*======================================
+        Hosting Part Start Here
+========================================*/
+/*======================================
+        Hosting Part End Here
+========================================*/
+
+
+/*======================================
+        Domain Part Start Here
+========================================*/
+/*======================================
+        Domain Part End Here
+========================================*/
+
+
+/*======================================
+        Feature Part Start Here
+========================================*/
+/*======================================
+        Feature Part End Here
+========================================*/
+
+
+/*======================================
+        Price Part Start Here
+========================================*/
+/*======================================
+        Price Part End Here
 ========================================*/
