@@ -368,8 +368,32 @@ ul,ol{
         Domain Part Start Here
 ========================================*/
 #domain{
-    height: 300px;
-    background-color: black;
+    padding: 100px 0;
+    background-image: url(../images/domain_bg.jpg);
+    color: #fff;
+}
+form .input_group{
+    border: 10px solid #119ee6;
+    width: 100%;
+    background-color: #151414;
+}
+form .input_group input{
+    border: none;
+    width: 80%;
+    background-color: #fff;
+    height: 100%;
+    outline: none;
+    height: 40px;
+    padding-left: 30px;
+}
+form .input_group select{
+    width: 19%;
+    border: none;
+    outline: none;
+    height: 100%;
+    background-color: #151414;
+    padding: 8px 0;
+    color: #fff;
 }
 /*======================================
         Domain Part End Here
