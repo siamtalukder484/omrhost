@@ -371,8 +371,40 @@ ul,ol{
     padding: 100px 0;
     background-image: url(../images/domain_bg.jpg);
     color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.sub_heading{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.main_heading{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    padding: 20px 0 40px 0;
+}
+.domain_exten_main{
+    display: flex;
+    justify-content: space-between;
+}
+.exten_name{
+    display: block;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+.exten_price{
+    font-size: 16px;
+}
+.exten_price span{
+    font-size: 12px;
 }
 form .input_group{
+    margin-top: 40px;
     border: 10px solid #119ee6;
     width: 100%;
     background-color: #151414;
@@ -395,6 +427,21 @@ form .input_group select{
     padding: 8px 0;
     color: #fff;
 }
+#domain form button{
+    padding: 13px 23px;
+    color: #fff;
+    background-color: #119ee6;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 /*======================================
         Domain Part End Here
 ========================================*/
@@ -403,6 +450,46 @@ form .input_group select{
 /*======================================
         Feature Part Start Here
 ========================================*/
+#feature{
+    padding-top: 100px;
+}
+#feature .main_heading{
+    color: #151414;
+    margin-bottom: 20px;
+}
+.feature_item{
+    margin-bottom: 50px;
+}
+.feature_item .feature_icon{
+    position: relative;
+}
+.feature_item .feature_icon i{
+    color: #119ee6;
+    font-size: 35px;
+}
+.feature_item .feature_icon::after{
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 80px;
+    height: 2px;
+    background-color: #119ee6;
+    content: '';
+}
+.feature_item h3{
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    color: #151414;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 47px 0 30px 0;
+    line-height: 0;
+}
+.feature_item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
 /*======================================
         Feature Part End Here
 ========================================*/
