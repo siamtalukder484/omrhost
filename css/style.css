@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/*======================================
+        Header Part Start Here
+========================================*/
+#header{
+    background-color: #151414;
+    height: 50px;
+    padding-top: 13px;
+}
+.header_social span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+    text-transform: capitalize;
+    padding-right: 10px;
+}
+.header_social a{
+    color: #aaa;
+    margin: 0 7px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.header_social a:hover, .header_contact a:hover{
+    color: #119ee6;
+}
+.header_social a i, .header_contact a i{
+    font-size: 14px;
+}
+.header_contact{
+    justify-content: flex-end;
+    display: flex;
+    column-gap: 40px;
+}
+.header_contact a{
+    color: #aaa;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.header_contact a i{
+    padding-right: 8px;
+}
+.header_contact a:first-child{
+    position: relative;
+}
+.header_contact a:first-child::after{
+    position: absolute;
+    right: -20px;
+    top: -4px;
+    content: '';
+    background-color: #aaa;
+    height: 30px;
+    width: 1px;
+}
+/*======================================
+        Header Part End Here
+========================================*/
+
+
+/*======================================
+        Navbar Part Start Here
+========================================*/
+.navbar{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: 0px 5px 25px -13px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 5px 25px -13px rgba(0,0,0,0.28);
+    box-shadow: 0px 5px 25px -13px rgba(0,0,0,0.28);
+}
+.nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #151414; 
+    position: relative;
+    padding: 27px 16px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.nav-item .nav-link::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    top: 0;
+    background-color: #119ee6;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.nav-item .nav-link:hover{
+    color: #119ee6;
+}
+.nav-item .nav-link:hover::after{
+    width: 100%;
+}
+.cart_part{
+    width: 130px;
+    text-align: right;
+    position: relative;
+}
+.cart_part::after{
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: #aaa;
+    content: '';
+    left: 57px;
+    top: -20px;
+}
+.cart_part i{
+    font-size: 20px;
+    color: #151414;
+    cursor: pointer;
+}
+.avatar{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 2px solid #151414;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    cursor: pointer;
+}
+.avatar_inner{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #119ee6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+/*======================================
+        Navbar Part End Here
+========================================*/
+
+
+/*======================================
+        Banner Part Start Here
+========================================*/
+
+/*======================================
+        Banner Part End Here
+========================================*/
