@@ -663,3 +663,51 @@ form .input_group select{
 /*======================================
         Price Part End Here
 ========================================*/
+
+
+/*======================================
+        Counter Part Start Here
+========================================*/
+#counter{
+    background-color: #020202;
+    padding: 100px 0;
+}
+.counter_item{
+    color: #fff;
+}
+.counter_item h3{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    
+}
+.counter_item h2{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+/*======================================
+        Counter Part End Here
+========================================*/
+
+
+
+/*======================================
+        Counter Part Start Here
+========================================*/
+/*======================================
+        Counter Part End Here
+========================================*/
+
+
+
+/*======================================
+        Counter Part Start Here
+========================================*/
+/*======================================
+        Counter Part End Here
+========================================*/
