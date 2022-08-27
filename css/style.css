@@ -503,22 +503,162 @@ form .input_group select{
     padding: 100px 0;
 }
 .price_item{
-    background-color: red;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.1);
 }
 .price_head{
     background-color: #151414;
     padding: 30px 30px 0 30px;
+    color: #fff;
+    position: relative;
+    transition: all linear 0.3s;
+}
+.price_circle{
+    color: #fff;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: all linear 0.3s;
+}
+.price_circle_shape{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    position: absolute;
+    border-bottom: 2px solid #fff;
+    height: 100px;
+    width: 87px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    
+}
+.recommended{
+    position: absolute;
+    background-color: #fff;
+    color: #119ee6;
+    top: -29px;
+    left: -81px;
+    transform: rotate(320deg);
+    -webkit-transform: rotate(320deg);
+    -moz-transform: rotate(320deg);
+    -ms-transform: rotate(320deg);
+    -o-transform: rotate(320deg);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.price_head h4{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.price_head p{
+    font-size: 12px;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+}
+.price_head h3{
+    font-size: 22px;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 55px;
+}
+.price_head h3 span{
+    font-size: 16px;
+    text-transform: lowercase;
 }
 .price_info{
-    padding: 30px;
+    padding: 60px 30px 30px 30px;
 }
 .price_info ul{
     padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    text-transform: capitalize;
+}
+.price_info ul li{
+    margin-bottom: 10px;
+}
+.price_info ul li:first-child i{
+    color: #999;
+}
+.price_info ul li i{
+    margin-right: 10px;
+    color: #119ee6;
+}
+.price_info a{
+    background-color: #119ee6;
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: inline-block;
+    transition: all linear 0.3s;
+}
+.recommended p{
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 2px 35px;
+}
+.price_info a:hover{
+    background-color: #151414;
+}
+.price_item:hover .price_head, .price_item:hover .price_circle{
+    background-color: #119ee6;
+}
+.price_item:hover .recommended{
+    left: -32px;
+    top: 28px;
 }
 /*======================================
         Price Part End Here
